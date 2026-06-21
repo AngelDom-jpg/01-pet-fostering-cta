@@ -6,6 +6,34 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Content goes here -->
+  <header class="site-header">
+    <h1 class="visually-hidden">Pet Fostering and Adoption</h1>
+  </header>
+
+  <main>
+    <!-- CTA banner: tall, visually striking, nature-inspired colors -->
+    <section class="cta-banner" aria-labelledby="cta-heading">
+      <div class="cta-content">
+        <h2 id="cta-heading">Open Your Home, Save a Life</h2>
+        <p class="cta-description">Fostering rescue animals gives them a safe place to heal and helps them find loving, forever homes. Your temporary care can make a lifelong difference.</p>
+        <a class="cta-button" href="#foster-info" role="button">Learn How to Foster</a>
+      </div>
+    </section>
+
+    <!-- Placeholder for additional content -->
+    <section id="foster-info" class="info-section">
+      <h3>Why Foster?</h3>
+      <p>Fostering reduces shelter crowding and helps animals get the socialization and medical support they need while they wait for adoption.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Pet Fostering Project</p>
+  </footer>
+
+  <script>
+    // Set the current year in the footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script> <!-- Content goes here -->
 </body>
 </html>
